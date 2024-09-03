@@ -1,9 +1,9 @@
 import Banner from "@/components/banner";
-import BlogPost from "./blogdescription";
+import BlogPost from "./servicesDescription";
 
 interface PageProps {
   params: {
-    id: string;
+    slug: string;
   };
 }
 
@@ -11,7 +11,8 @@ function Page({ params }: PageProps) {
   return (
     <>
       <Banner isSubpage={true} />
-      <BlogPost params={params} />{" "}
+
+      <BlogPost params={params} />
     </>
   );
 }

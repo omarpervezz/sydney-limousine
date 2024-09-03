@@ -79,10 +79,14 @@ const Footer: React.FC = () => {
               <h5 className="mb-3 text-[18px] font-bold">Services</h5>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#">&#10140; Airport Transfer Limos</Link>
+                  <Link href="/service/airport-transfer">
+                    &#10140; Airport Transfer Limos
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">&#10140; Corporate Transfer Limos</Link>
+                  <Link href="/service/corporate-transfers">
+                    &#10140; Corporate Transfer Limos
+                  </Link>
                 </li>
                 <li>
                   <Link href="#">&#10140; Special Occasions Limos</Link>
