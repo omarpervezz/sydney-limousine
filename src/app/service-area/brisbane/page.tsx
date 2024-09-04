@@ -9,22 +9,22 @@ type ServiceDetails = {
   description: string;
 };
 
-const canberraServices: ServiceDetails[] = [
+const brisbaneServices: ServiceDetails[] = [
   {
-    serviceName: "Canberra Airport Transfers",
-    description: `We do have Canberra Airport Transfer with Sedan and SUV limousine pick up where the driver Meet and Greet in the arrival hall with name sign and reach your desired destination. Booking early for our services to get an elegant service using our luxury car avoiding standing for hassle of taxis or shuttle services. We do have a range of selection of vehicle for couple or family pick up from the airport or hotel or private address. If you are on the lookout in Canberra for comfortable and luxurious services, no other company in the city can provide like our limousine Service. When customers click on airport this will come out drivers, to ride have the comfort and safety of a late-model, luxury cars of Canberra Airport Transfer will provide you with reliable transportation services.`,
+    serviceName: "Brisbane Airport Limousine",
+    description: `Brisbane Airport Transfer is a comfortable Sedan and SUV limousine pick up where the driver Meet and Greet in the arrival hall with name sign and reach your desired destination. Booking early for our services to get an elegant service using our luxury car avoiding standing for hassle of taxis or shuttle services. We do have range of selection of vehicle for couple or family pick up from the airport or hotel or private address. If you are on the looking in Brisbane for comfortable and luxurious services as no other company in the city can provide like our limousine Service. When customer click on airport this will come out drivers, to ride have in the comfort and safety of a late-model, luxury cars of Brisbane Airport Transfer will provide you with transportation services you can truly rely on and enjoy.`,
   },
   {
-    serviceName: "Point to Point",
-    description: `Canberra Limo is a part of Corporate Car Services. This is a great service to reach you for your expected destination where it could be a dinner party, night on town or anniversary. Limousine Service. Planning to go to the Big Game with all your buddies or attending an upcoming Concert, Corporate Gaming Events, and New Year Eve. Our chauffeur will be responsible to reach your home safely when you have had extra drinks. We do have only provide service sedan and SUV. We will pick you up, get you to your event - right to the front entrance and bring you home again, so your journey will be hustle and bustle free. Our Chauffeur is here to provide you with an experienced service that makes it feel like it is a special day to remember & enjoyable in style & luxurious by our vehicles.`,
+    serviceName: "Point to Point Transfer",
+    description: `Brisbane Limo is a part of Corporate Car Services. This is a great service to reach you for your expected destination where it could be a dinner party, night on town or anniversary. Limousine Service. Planning to go to the Big Game with all your buddies or attending an upcoming Concert, Corporate Gaming Events and New Year Eve. Our chauffeur will be responsible to reach your home safely when you are have extra drink. We do have only provide service sedan and SUV .We will pick you up, get you to your event - right to the front entrance and bring you home again, so your journey will be hustle and bustle free. Our Chauffeur are here to provide with experienced service that makes feel like it is a special day to remember & enjoyable in style & luxurious by our vehicles.`,
   },
   {
-    serviceName: "Canberra Corporate Transfer",
-    description: `Canberra Corporate Service provides car services at very competitive prices for corporate travelers in the corporate community. Our chauffeur works diligently to provide you with the very best chauffeured limousine service. We provide transportation for all corporate occasions, business meetings, seminars, business launches, and corporate gaming functions. Our reservation agents are happy to provide you with detailed information on the features and spaciousness of our limousines. You are guaranteed that your booked car will be on time according to your booking time, ensuring you feel stress-free to reach your scheduled appointment. Our first priority is zero tolerance for delays when it comes to your pick up.`,
+    serviceName: "Brisbane Corporate Transfer",
+    description: `Brisbane corporate Service provides car services at very competitive prices for corporate travelers in the corporate community. Our chauffeur work diligently to provide you with the very best chauffeured limousine service. We provide transportation for all corporate occasions, business meeting, seminars, business launch and corporate gaming functions. Our reservation agents are happy to provide you with detailed information of the features and spaciousness of our limousines. You are guaranteed as your booked car will be on time according to you booking time which you feel stress fee to reach your schedule appointment as our first priority is zero percentage tolerance about the booking time for your pick up.`,
   },
   {
-    serviceName: "Canberra Tour Services",
-    description: `We do have services to look around National Park and countryside where you can hire our limousine for a day or hourly basis with the driver for your hassle-free journey. Our ultimate tour offers a complete spectacular adventure using our professional chauffeurs and luxury cars. Our drivers are always timely and organized people who are respectful of our valued clients. We never keep our clients waiting for the car to arrive. Our goal is to provide our clients with the utmost luxury and relaxation. Canberra Tours offers a number of private, personal guided tours for people who would like to visit popular places in Northern Territory. All tours are limited to a maximum of four to six passengers.`,
+    serviceName: "Brisbane Tour Services",
+    description: `We do have services also to look around Tropical Queensland country side where you can hire our limousine for a day or hourly basis with the driver for your hassle and bustle free. Our ultimate tour has complete spectacular adventure unfolds experience using our professional chauffeur and luxury cars. . Our drivers are always timely and organized people who are respectful of our valued clients. We never keep our clients waiting for car to arrive and our goal is to provide our clients with the luxury and relaxation atmosphere. Brisbane Tours as we offer a number of private, personal guided tours for people who would like to visit popular places in Queensland. All tours are limited to a maximum of four and six passengers.`,
   },
 ];
 
@@ -132,7 +132,7 @@ export default function Brisbane() {
         </div>
       </div>
       <div className="container mx-auto py-10 px-10 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {canberraServices.map((service, index) => (
+        {brisbaneServices.map((service, index) => (
           <div
             key={index}
             className="bg-[#eaeaea] shadow-lg overflow-hidden flex flex-col"

@@ -38,22 +38,22 @@ const limoServices: CityService[] = [
   {
     city: "Gold Coast",
     description: `We are confident that we provide the lowest rates in Gold Coast as well as the outer Gold Coast area. If you ever find a better than ours, please let us know and we will match your reservation, and with no additional booking fees or max out. Our years of experience providing affordable transportation, knowledge, experience and passion to provide services in a city such as Gold Coast with it's busy events calendar year round, assures us that we are going to be your first choice. Our fleet of luxury Sedans, European SUVs, Chrysler 300 Sedans, and Genesis European SUV offers a wide variety of choices. Our friendly, knowledgeable staff is ready to help you 24 hours a day, and our professional, courteous drivers are ready to meet all your ground transportation needs. For over 20 years our priority has been to provide a professional ride that is convenient, reliable, safe, and affordable and clean while exceeding your highest expectation. The instant quotation is an easy and practical way to estimate your rate to your destination. Simply choose your location/city from the first column and check the rate under your airport abbreviation stated next. You may also choose to type in your location on the search box and find out t`,
-    path: "View More >>",
+    path: "gold-coast",
   },
   {
     city: "Adelaide",
     description: `Adelaide Limousine Services proposes you high-quality limo service. Whenever you are and whenever you need a limo we are ready to provide you with the best service possible - it's our main mission. Now a days, passengers in limousine services work in a combination of the most modern technologies, responsibility and customer orientation. When you need to get quickly at the airport, Adelaide airport limo is exactly what you need. Best cars, experienced chauffeurs, luxury transportation conditions are main issues we always guarantee. Don't worry about the possibility of being late, we'll do everything to get you to the point of destination timely, ride with our limo service will seem a pleasant one. You won't be mistaken ordering Adelaide airport limo. If there exists a nee`,
-    path: "View More >>",
+    path: "adelaide",
   },
   {
     city: "Darwin",
     description: `Darwin Limousine Service is one of the interstate service of Sydney Limousine Service and we provide similar service in Darwin. What you save from hiring an affordable limousine service generally depends on why you're hiring one and it is the solution to use our services. For many events, it's not unheard of to pay in excess of expensive car parking cost. With a certified limo service, you only have to worry about getting in and out of the door. Everything else is taken care of. The limo driver handles all of that, leaving you to enjoy your event, flight, or any other reason why you may be choosing to avail affordable limo service Our passengers' safety is our highest priority. We demand excellence from each driver and insist on superior accrediting and certification. Current licensing is maintained at all times and drivers must continually satisfy safe-driving requirements. Our vehicles also go through stringent testing. The fleet is run through necessary inspections that satisfy all`,
-    path: "View More >>",
+    path: "darwin",
   },
   {
     city: "Sydney Suburbs",
     description: `Sydney Limousine Services provides limousine and car service in all greater metropolitan area in Sydney and it’s individual suburb which offer you a service in affordable and premium quality. Basically, we have great rates for latest modern luxury Sedan, SUV, People Mover and Stretch Limousine. Sydney Limousine Services provides all services at a competitive rate, when you hire a limo from us and no matter what time of the day and how far is your pickup, so our chauffeur will be on time for your pickup. In our years of business, we noticed some suburbs are more active than others in reserving a limo service, that is why we have engaged all the suburb in Sydney for your convenient limousines transfers. You can now book Limousine Transfer Online to all Sydney suburbs and to the Sydney Airport. We cover all the suburbs in Sydney for airport transfer, limo hire, corporate pickup, wedding service and other special events transfer. If your place is not listed, we can still drive you to and from it.`,
-    path: "View More >>",
+    path: "sydney-suburbs",
   },
 ];
 

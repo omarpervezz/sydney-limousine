@@ -33,16 +33,16 @@ const Header: React.FC = () => {
   }, [handleScroll, handleResize]);
 
   const menuLinks = [
-    { href: "/", label: "Home", styles: "bg-white text-teal-700" },
-    { href: "/about", label: "About Us", styles: "text-white" },
-    { href: "/service", label: "Service", styles: "text-white" },
-    { href: "/service-area", label: "Service Area", styles: "text-white" },
-    { href: "/fleets", label: "Fleets", styles: "text-white" },
-    { href: "/rates", label: "Rates", styles: "text-white" },
-    { href: "/contact", label: "Contact", styles: "text-white" },
-    { href: "/login", label: "Login", styles: "text-white" },
-    { href: "/gallery", label: "Gallery", styles: "text-white" },
-    { href: "/instant-quote", label: "Instant Quote", styles: "text-white" },
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About Us" },
+    { href: "/service", label: "Service" },
+    { href: "/service-area", label: "Service Area" },
+    { href: "/fleets", label: "Fleets" },
+    { href: "/rates", label: "Rates" },
+    { href: "/contact", label: "Contact" },
+    { href: "/login", label: "Login" },
+    { href: "/gallery", label: "Gallery" },
+    { href: "/instant-quote", label: "Instant Quote" },
   ];
 
   return (
@@ -76,11 +76,13 @@ const Header: React.FC = () => {
                 href={link.href}
                 className={clsx(
                   "font-semibold py-3 px-4 uppercase text-[14px] transition-colors duration-300",
-                  isSticky ? "bg-inherit" : "text-white",
-                  {
-                    "bg-white text-teal-700": pathname === link.href,
-                  }
+                  isSticky ? "text-black" : "text-white"
                 )}
+                style={
+                  pathname === link.href
+                    ? { backgroundColor: "black", color: "white" }
+                    : undefined
+                }
               >
                 {link.label}
               </Link>
