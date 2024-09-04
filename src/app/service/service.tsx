@@ -33,7 +33,7 @@ const ServicePage: React.FC = () => {
                 passHref
                 className="text-white bg-black hover:bg-gray-800 font-medium py-3 px-5 rounded-lg transition-colors"
               >
-                Read more
+                View more
               </Link>
             </div>
           </div>
