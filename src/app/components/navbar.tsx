@@ -66,7 +66,7 @@ const Header: React.FC = () => {
             </Link>
           </div>
           <nav
-            className={`hidden lg:flex items-center p-0 h-[45px] ${
+            className={`hidden rounded-l-md lg:flex items-center p-0 h-[45px] ${
               isSticky ? "bg-inherit" : "bg-teal-700"
             }`}
           >
@@ -76,7 +76,8 @@ const Header: React.FC = () => {
                 href={link.href}
                 className={clsx(
                   "font-semibold py-3 px-4 uppercase text-[14px] transition-colors duration-300",
-                  isSticky ? "text-black" : "text-white"
+                  isSticky ? "text-black" : "text-white",
+                  idx === 0 && "rounded-l-md"
                 )}
                 style={
                   pathname === link.href
