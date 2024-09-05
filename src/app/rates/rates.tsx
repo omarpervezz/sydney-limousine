@@ -349,7 +349,7 @@ const RatesSection = () => {
         <div className="text-left mt-8">
           <a
             href="#"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-teal-600 cursor-pointer text-white px-6 py-3 rounded-md hover:bg-teal-700 transition-all"
           >
             Quote and Book Now
           </a>
