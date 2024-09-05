@@ -42,7 +42,6 @@ const Header: React.FC = () => {
     { href: "/contact", label: "Contact" },
     { href: "/login", label: "Login" },
     { href: "/gallery", label: "Gallery" },
-    { href: "/instant-quote", label: "Instant Quote" },
   ];
 
   return (
@@ -66,7 +65,7 @@ const Header: React.FC = () => {
             </Link>
           </div>
           <nav
-            className={`hidden rounded-l-md lg:flex items-center p-0 h-[45px] ${
+            className={`hidden rounded-l-md rounded-r-md lg:flex items-center p-0 h-[45px] ${
               isSticky ? "bg-inherit" : "bg-teal-700"
             }`}
           >
@@ -77,7 +76,8 @@ const Header: React.FC = () => {
                 className={clsx(
                   "font-semibold py-3 px-4 uppercase text-[14px] transition-colors duration-300",
                   isSticky ? "text-black" : "text-white",
-                  idx === 0 && "rounded-l-md"
+                  idx === 0 && "rounded-l-md",
+                  idx === menuLinks.length - 1 && "rounded-r-md"
                 )}
                 style={
                   pathname === link.href
