@@ -1,5 +1,5 @@
 import Banner from "@/components/banner";
-import ServiceDescripion from "./servicesDescription";
+import ServiceDescripion from "./fleetsdescription";
 
 interface PageProps {
   params: {

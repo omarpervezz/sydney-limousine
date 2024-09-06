@@ -1,4 +1,3 @@
-"use client";
 import Banner from "@/components/banner";
 import Gallery from "./gallery";
 function Page() {
