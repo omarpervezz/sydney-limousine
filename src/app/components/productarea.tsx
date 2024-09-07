@@ -68,7 +68,7 @@ const ProductArea: React.FC = () => {
 
   return (
     <section className="bg-gray-100 pt-32 pb-20">
-      <div className="container mx-auto px-4">
+      <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto">
         <div className="flex justify-center mb-16">
           <div className="text-center">
             <span className="text-sm text-teal-600 font-bold uppercase">

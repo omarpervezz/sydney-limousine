@@ -51,11 +51,12 @@ const Header: React.FC = () => {
       }`}
     >
       <div>
-        <div className="container px-5 mx-auto flex justify-between items-center py-2">
+        <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto flex justify-between items-center py-2">
           <div className="flex items-center">
             <Link href="/">
               <Image
-                className={`h-auto w-[60%] bg-white pl-[15px] pt-2 pb-2 mt-1 transition-all duration-300 ${
+                width={150}
+                className={`bg-white pl-[15px] pt-2 pb-2 mt-1 transition-all duration-300 ${
                   isSticky ? "scale-90" : ""
                 }`}
                 src={logoSrc}

@@ -3,7 +3,7 @@ import { FaUsersCog } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
 export default function FeaturesArea() {
   return (
-    <div className="container mx-auto py-12">
+    <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto py-12">
       <div className="flex flex-wrap -mx-4">
         <div
           className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 wow fadeInUp"

@@ -7,7 +7,7 @@ import appImage from "../../../public/app.webp";
 const AppSection: React.FC = () => {
   return (
     <div className="relative bg-[#f9f8f7] py-10 z-30">
-      <div className="container mx-auto px-4">
+      <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto">
         <div className="bg-[#f7f7f7] p-10 rounded-xl relative z-10 overflow-hidden">
           <div className="flex flex-wrap items-center">
             <div className="lg:w-1/2 w-full mb-8 lg:mb-0">

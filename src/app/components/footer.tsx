@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-black text-white">
       <div className="py-12">
-        <div className="container mx-auto px-4">
+        <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto">
           <div className="flex flex-wrap -mx-4 mb-8">
             <div className="w-full md:w-1/4 px-4 mb-4 md:mb-0">
               <div className="flex items-center">
@@ -221,7 +221,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="bg-teal-700 py-5">
-        <div className="container mx-auto">
+        <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto">
           <div className="flex flex-row justify-between">
             <div>
               <p className="mb-0">

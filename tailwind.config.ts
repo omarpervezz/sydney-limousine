@@ -19,6 +19,17 @@ const config: Config = {
           700: "#008b8b",
         },
       },
+      container: {
+        center: true,
+        padding: "1rem",
+      },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
     },
   },
   plugins: [],

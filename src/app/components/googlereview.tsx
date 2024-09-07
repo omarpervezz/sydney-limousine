@@ -12,7 +12,7 @@ export default function GoogleReviewSection() {
 
   return (
     <section className="elfsite_google_review_section py-8">
-      <div className="container px-5 mx-auto">
+      <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto">
         <div className="flex flex-wrap -mx-5">
           <div className="w-full">
             <div

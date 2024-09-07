@@ -29,7 +29,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 
   return (
     <section className="py-12">
-      <div className="container mx-auto px-4">
+      <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto">
         <div className="text-center">
           <div className="titlepage">
             <Title text="Variety Of Cars" className="mb-2" />
