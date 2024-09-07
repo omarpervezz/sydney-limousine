@@ -53,17 +53,23 @@ export default async function FleetDescription({
             <Handlethumbnail data={fleetData} />
             {/* Additional Information */}
             <div className="space-y-4">
-              <h2 className="text-xl font-bold text-gray-800">
-                Why Choose {fleetData.name && fleetData.name.split(" ")[0]}
-              </h2>
-              {fleetData.whyChoose.map((fleetInformation, index) => (
+              {fleetData.whyChoose && (
+                <h2 className="text-xl font-bold text-gray-800">
+                  Why Choose {fleetData.name && fleetData.name.split(" ")[0]}
+                </h2>
+              )}
+              {fleetData.whyChoose?.map((fleetInformation, index) => (
                 <div key={index}>
                   <p className="text-gray-600">{fleetInformation}</p>
                 </div>
               ))}
 
-              <h2 className="text-xl font-bold text-gray-800">Car Overview</h2>
-              {fleetData.overview.map((des, index) => (
+              {fleetData.overview && (
+                <h2 className="text-xl font-bold text-gray-800">
+                  Car Overview
+                </h2>
+              )}
+              {fleetData.overview?.map((des, index) => (
                 <div key={index}>
                   <p className="text-gray-600">{des}</p>
                 </div>
@@ -72,11 +78,13 @@ export default async function FleetDescription({
 
             {/* Amenities */}
             <div>
-              <h2 className="text-xl font-bold text-gray-800 mt-6">
-                Amenities
-              </h2>
+              {fleetData.amenities && (
+                <h2 className="text-xl font-bold text-gray-800 mt-6">
+                  Amenities
+                </h2>
+              )}
               <ul className="mt-4 space-y-2 list-disc pl-5 text-gray-600">
-                {fleetData.amenities.map((amenity, index) => (
+                {fleetData.amenities?.map((amenity, index) => (
                   <li key={index}>{amenity}</li>
                 ))}
               </ul>
@@ -84,11 +92,13 @@ export default async function FleetDescription({
 
             {/* Services Offered */}
             <div>
-              <h2 className="text-xl font-bold text-gray-800 mt-6">
-                Services Offered
-              </h2>
+              {fleetData.servicesOffered && (
+                <h2 className="text-xl font-bold text-gray-800 mt-6">
+                  Services Offered
+                </h2>
+              )}
               <ul className="mt-4 space-y-2 list-disc pl-5 text-gray-600">
-                {fleetData.servicesOffered.map((service, index) => (
+                {fleetData.servicesOffered?.map((service, index) => (
                   <li key={index}>{service}</li>
                 ))}
               </ul>

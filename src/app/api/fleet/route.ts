@@ -161,6 +161,7 @@ export async function GET() {
     {
       slug: "tesla-model-s",
       name: "Tesla Model S",
+      price: "$132.0/hr",
       category: "Executive Car",
       pax: "4 Pax",
       luggage: "2 Lugg/3 Pax 3 Lugg",
@@ -176,10 +177,35 @@ export async function GET() {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "lexus-es-300h",
-      name: "Lexus ES 300h",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
       category: "Executive Car",
       pax: "4 Pax",
       luggage: "2 Lugg/3 Pax 3 Lugg",
@@ -190,218 +216,519 @@ export async function GET() {
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/lexus-es-300h/lexus-es-300h.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "mercedes-s-class",
-      name: "Mercedes S Class",
-      category: "European Luxury Sedan",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
       pax: "4 Pax",
       luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
-        "Rear-seat Console Controls",
-        "Large Leg Space",
+        "Leather Interior",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/mercedes-s-class/mercedes-s-class.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "audi-a8",
-      name: "Audi A8",
-      category: "European Luxury Sedan",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
       pax: "4 Pax",
       luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
-        "Rear-seat Console Controls",
-        "Large Leg Space",
+        "Leather Interior",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/audi-a8/audi-a8.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "bmw-7-series",
-      name: "BMW 7 Series",
-      category: "European Luxury Sedan",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
       pax: "4 Pax",
       luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
-        "Rear-seat Console Controls",
-        "Large Leg Space",
+        "Leather Interior",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/bmw-7-series/bmw-7-series.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "audi-q7",
-      name: "Audi Q7 (SUV)",
-      category: "Luxury SUV",
-      pax: "6 Pax",
-      luggage: "4 Lugg/4 Sml",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
         "Leather Interior",
-        "Best Family Travel for 4",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/audi-q7/audi-q7.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "bmw-x7",
-      name: "BMW X7 (SUV)",
-      category: "Luxury SUV",
-      pax: "6 Pax",
-      luggage: "4 Lugg/4 Sml",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
         "Leather Interior",
-        "Best Family Travel for 4",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
-      image: "https://sydneylimousineservice.com/img/fleets/bmw-x7/bmw-x7.png",
+      image:
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "mercedes-benz-gle",
-      name: "Mercedes-Benz GLE",
-      category: "Luxury SUV",
-      pax: "6 Pax",
-      luggage: "4 Lugg/4 Sml",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
         "Leather Interior",
-        "Best Family Travel for 4",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/mercedes-benz-gle/mercedes-benz-gle.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "lexus-rx-400hl",
-      name: "Lexus RX 400hl",
-      category: "Luxury SUV",
-      pax: "6 Pax",
-      luggage: "4 Lugg/4 Sml",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
         "Leather Interior",
-        "Best Family Travel for 4",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/lexus-rx-400hl/lexus-rx-400hl.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "mercedes-benz-v-class",
-      name: "Mercedes-Benz V Class",
-      category: "People Mover Small",
-      pax: "7 Pax",
-      luggage: "5 Lugg",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
         "Leather Interior",
-        "Specious Leg Space",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/mercedes-benz-v-class/mercedes-benz-v-class.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "mercedes-sprinter",
-      name: "Mercedes Sprinter",
-      category: "People Mover Big",
-      pax: "11 Pax",
-      luggage: "8 Lugg",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
         "Light Refreshment",
         "Leather Interior",
-        "Specious Leg Space",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/sprinter/sprinter.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "stretch-chrysler-300c",
-      name: "Stretch Chrysler 300C",
-      category: "Chrysler Stretch Limousine",
-      pax: "11 Pax",
-      luggage: "4 Lugg",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
-        "Complementary Wine Served",
+        "Light Refreshment",
         "Leather Interior",
-        "Comfortable Seating",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
       image:
-        "https://sydneylimousineservice.com/img/fleets/chrysler-stretch/chrysler-stretch.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
     {
-      slug: "stretch-hummer-h2",
-      name: "Stretch Hummer H2",
-      category: "Hummer Stretch Limousine",
-      pax: "14 Pax",
-      luggage: "4 Lugg",
+      slug: "tesla-model-s",
+      name: "Tesla Model S",
+      price: "$132.0/hr",
+      category: "Executive Car",
+      pax: "4 Pax",
+      luggage: "2 Lugg/3 Pax 3 Lugg",
       features: [
-        "Complementary Wine Served",
+        "Light Refreshment",
         "Leather Interior",
-        "Comfortable Seating",
+        "Comfortable Leg Space",
         "Tinted Window",
       ],
-      image: "https://sydneylimousineservice.com/img/fleets/hummer/hummer.png",
+      image:
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/tesla-model-s.png",
       actions: {
         viewDetails: "View Details",
         quoteBook: "Quote & Book Now",
       },
+      rateInfo: [
+        {
+          label: "Per Hour Rate",
+          price: "$132.0/HOUR",
+
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 2 hours minimum booking",
+        },
+        {
+          label: "Per Day Rate",
+          price: "$1056.0/DAY",
+          unit: "/DAY",
+          description:
+            "*All inclusive of GST, Tolls & Service Fee - 8 hours of service",
+        },
+      ],
+      viewImage: [
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/interior.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-right.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/front-left.png",
+        "https://sydneylimousineservice.com/img/fleets/tesla-model-s/back.png",
+      ],
     },
   ];
 
