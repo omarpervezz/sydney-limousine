@@ -9,7 +9,6 @@ interface FleetCar {
   slug: string;
   name: string;
   category: string;
-  pax: string;
   luggage: string;
   features: string[];
   image: string;
@@ -53,9 +52,6 @@ export default async function FleetPage() {
                     <p className="text-gray-500">{car.category}</p>
 
                     <ul className="my-4 space-y-1 text-gray-600">
-                      <li className="flex items-center">
-                        <FaCar className="mr-2 text-lg" /> {car.pax}
-                      </li>
                       <li className="flex items-center">
                         <FaCar className="mr-2 text-lg" /> {car.luggage}
                       </li>

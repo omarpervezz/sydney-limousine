@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import {
   PrevButton,
@@ -11,14 +11,19 @@ import Image from "next/image";
 import Title from "@/components/title";
 import { libreBaskerville } from "@/lib/font";
 
+type FleetCar = {
+  image: string;
+  name: string;
+};
+
 type PropType = {
-  slides: { src: string; title: string }[];
+  slides?: { image: string; name: string }[];
   options?: EmblaOptionsType;
 };
 
-const EmblaCarousel: React.FC<PropType> = (props) => {
-  const { slides, options } = props;
+const EmblaCarousel: React.FC<PropType> = ({ slides = [], options }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
+  const [fleet, setFleet] = useState<FleetCar[]>(slides);
 
   const {
     prevBtnDisabled,
@@ -26,6 +31,26 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     onPrevButtonClick,
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi);
+
+  // Fetch fleet data when the component mounts
+  useEffect(() => {
+    const fetchFleet = async () => {
+      try {
+        const res = await fetch(
+          `${process.env.NEXT_PUBLIC_API_URL}/api/fleet`,
+          {
+            cache: "no-store",
+          }
+        );
+        const data: FleetCar[] = await res.json();
+        setFleet(data);
+      } catch (error) {
+        console.error("Failed to fetch fleet data:", error);
+      }
+    };
+
+    fetchFleet();
+  }, []);
 
   return (
     <section className="py-12">
@@ -43,14 +68,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           <div className="embla">
             <div className="embla__viewport overflow-hidden" ref={emblaRef}>
               <div className="embla__container flex items-center">
-                {slides.map((slide, index) => (
+                {fleet.map((car, index) => (
                   <div className="embla__slide" key={index}>
                     <div className="car_box text-center">
                       <figure className="mb-3">
                         <Image
-                          src={slide.src}
-                          alt={slide.title}
-                          className="mx-auto"
+                          src={car.image}
+                          alt={car.name}
+                          className="w-full h-auto mx-auto"
                           width={400}
                           height={300}
                         />
@@ -58,7 +83,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       <h3
                         className={`${libreBaskerville.className} text-[#f5f5f5] bg-[#008b8b] text-[30px] leading-[28px] h-[84px] flex items-center justify-center flex-wrap mt-[30px] p-0`}
                       >
-                        {slide.title}
+                        {car.name}
                       </h3>
                     </div>
                   </div>

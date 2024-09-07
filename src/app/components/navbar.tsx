@@ -34,7 +34,7 @@ const Header: React.FC = () => {
 
   const menuLinks = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About Us" },
+    { href: "/about", label: "About" },
     { href: "/service", label: "Service" },
     { href: "/service-area", label: "Service Area" },
     { href: "/fleets", label: "Fleets" },
