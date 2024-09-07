@@ -21,7 +21,7 @@ interface FleetCar {
 
 // Async server component that fetches fleet data
 export default async function FleetPage() {
-  const res = await fetch("http://localhost:4000/api/fleet", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/fleet`, {
     cache: "no-store",
   });
   const fleet: FleetCar[] = await res.json();
