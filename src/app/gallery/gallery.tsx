@@ -43,147 +43,77 @@ const images = [
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/19.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
+  },
+  {
+    src: "https://sydneylimousineservice.com//gallery/images/2.jpg",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/20.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/21.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/22.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/23.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/24.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/25.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
+
   {
     src: "https://sydneylimousineservice.com//gallery/images/26.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/27.jpg",
-    alt: "Image description 1",
-  },
+
   {
     src: "https://sydneylimousineservice.com//gallery/images/28.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/29.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
+  },
+  {
+    src: "https://sydneylimousineservice.com//gallery/images/3.jpg",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/30.jpg",
-    alt: "Image description 1",
+    alt: "Image description 1ssss",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/31.jpg",
-    alt: "Image description 1",
+    alt: "Image description for 31.jpg",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/32.jpg",
-    alt: "Image description 1",
+    alt: "Image description for 32.jpg",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/33.jpg",
-    alt: "Image description 1",
+    alt: "Image description for 33.jpg",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/34.jpg",
-    alt: "Image description 1",
+    alt: "Image description for 34.jpg",
   },
   {
     src: "https://sydneylimousineservice.com//gallery/images/35.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/36.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/37.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/38.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/39.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/40.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/41.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/42.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/43.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/44.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/45.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/46.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
-  },
-  {
-    src: "https://sydneylimousineservice.com//gallery/images/1.jpg",
-    alt: "Image description 1",
+    alt: "Image description for 35.jpg",
   },
 ];
 
