@@ -32,7 +32,7 @@ export default async function FleetDescription({
 }: {
   params: { slug: string };
 }) {
-  const res = await fetch("http://localhost:4000/api/fleet", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/fleet`, {
     cache: "no-store",
   });
   const fleets: FleetCar[] = await res.json();
