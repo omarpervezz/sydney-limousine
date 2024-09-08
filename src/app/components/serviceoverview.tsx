@@ -1,8 +1,8 @@
 import Title from "@/components/title";
 const ServicesOverview = () => {
   return (
-    <div className="bg-gray-100 py-8 px-4 md:px-8 lg:px-16">
-      <div className="container mx-auto">
+    <div className="bg-gray-100 py-8">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto">
         <Title text="Services Overview" className="mb-6" />
 
         <p className="text-gray-600 text-base md:text-base lg:text-lg leading-relaxed mb-6">

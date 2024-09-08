@@ -2,8 +2,8 @@ import React from "react";
 
 const ImpressiveNumbersSection: React.FC = () => {
   return (
-    <section className="bg-teal-700 py-16 px-6 md:px-12 lg:px-24 text-white">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+    <section className="bg-teal-700 py-16 text-white">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-2xl md:text-3xl font-semibold">
             Showcase some impressive numbers.

@@ -4,8 +4,8 @@ import Title from "@/components/title";
 
 const AboutSection: React.FC = () => {
   return (
-    <section className="py-16 px-6 md:px-12 lg:px-24 bg-white">
-      <div className="container mx-auto text-left">
+    <section className="py-16 bg-white">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto text-left">
         <Title
           text="We reimagine the way the world moves for the better"
           className="mb-6"

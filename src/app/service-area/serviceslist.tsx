@@ -7,7 +7,7 @@ import limoServices from "@/data/cityServiceList";
 
 const ServiceList: React.FC = () => {
   return (
-    <div className="container mx-auto px-3 py-10">
+    <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto py-10">
       <Title text="Service Area" className="mb-8 text-center" />
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-12">
         {limoServices.map((service, index) => (

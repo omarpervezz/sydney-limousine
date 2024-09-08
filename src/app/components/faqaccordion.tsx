@@ -50,7 +50,7 @@ const FaqAccordion: React.FC = () => {
 
   return (
     <section className="py-16 px-6 md:px-12 lg:px-24 bg-white">
-      <div className="max-w-6xl mx-auto">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto">
         <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 text-center mb-12">
           Frequently Asked Questions
         </h2>

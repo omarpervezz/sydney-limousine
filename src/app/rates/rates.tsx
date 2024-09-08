@@ -4,7 +4,7 @@ import Title from "@/components/title";
 const RatesSection = () => {
   return (
     <div className="rates-section py-16 relative z-10">
-      <div className="container mx-auto px-4">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto">
         <div className="mb-8">
           <Title text="Limousine Rates / Fare" className="mb-4" />
           <p className="mb-4 text-lg">

@@ -46,7 +46,7 @@ export default async function FleetDescription({
 
   return (
     <section className="py-12">
-      <div className="container mx-auto p-4">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Left Section */}
           <div className="flex flex-col space-y-4">

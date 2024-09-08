@@ -32,7 +32,7 @@ export default function Hobart() {
   return (
     <>
       <Banner isSubpage={true} />
-      <div className="container mx-auto py-10 px-10">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto py-10">
         <div className="flex flex-col items-start justify-center">
           <Image src={hobartImg} width={700} alt="sydney" className="mb-5" />
           <div>

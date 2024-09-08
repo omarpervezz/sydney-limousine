@@ -7,22 +7,44 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import logoSrc from "@/public/logo-small.png";
 
+const menuLinks = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/service", label: "Service" },
+  { href: "/service-area", label: "Service Area" },
+  { href: "/fleets", label: "Fleets" },
+  { href: "/rates", label: "Rates" },
+  { href: "/contact", label: "Contact" },
+  { href: "/gallery", label: "Gallery" },
+];
+
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isSticky, setIsSticky] = useState(true);
+  const [isSticky, setIsSticky] = useState(false);
   const pathname = usePathname();
 
   const toggleMenu = () => setMenuOpen((prev) => !prev);
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    setMenuOpen(false); // Close menu when route changes
+  }, [pathname]);
 
   const handleScroll = useCallback(() => {
     setIsSticky(window.scrollY > 50);
   }, []);
 
   const handleResize = useCallback(() => {
-    setMenuOpen(false);
+    setMenuOpen(false); // Close menu on resize
   }, []);
 
+  // Check initial scroll position when the component mounts
   useEffect(() => {
+    // Set sticky state based on current scroll position
+    if (window.scrollY > 50) {
+      setIsSticky(true);
+    }
+
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
 
@@ -31,18 +53,6 @@ const Header: React.FC = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, [handleScroll, handleResize]);
-
-  const menuLinks = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/service", label: "Service" },
-    { href: "/service-area", label: "Service Area" },
-    { href: "/fleets", label: "Fleets" },
-    { href: "/rates", label: "Rates" },
-    { href: "/contact", label: "Contact" },
-    { href: "/login", label: "Login" },
-    { href: "/gallery", label: "Gallery" },
-  ];
 
   return (
     <header
@@ -91,6 +101,7 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
+          {/* Mobile menu button */}
           <div className="flex lg:hidden">
             <button
               onClick={toggleMenu}
@@ -102,76 +113,34 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Mobile Menu */}
       {menuOpen && <MobileMenu />}
     </header>
   );
 };
 
-const MobileMenu: React.FC = () => (
-  <div className="container mx-auto lg:hidden bg-white shadow-md">
-    <nav className="py-4">
-      <Link
-        href="/"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Home
-      </Link>
-      <Link
-        href="/about"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        About Us
-      </Link>
-      <Link
-        href="/service"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Service
-      </Link>
-      <Link
-        href="/service-area"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Service Area
-      </Link>
-      <Link
-        href="/fleets"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Fleets
-      </Link>
-      <Link
-        href="/rates"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Rates
-      </Link>
-      <Link
-        href="/contact"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Contact
-      </Link>
-      <Link
-        href="/login"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Login
-      </Link>
-      <Link
-        href="/gallery"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Gallery
-      </Link>
-      <Link
-        href="/instant-quote"
-        className="block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]"
-      >
-        Instant Quote
-      </Link>
-    </nav>
-  </div>
-);
+const MobileMenu: React.FC = () => {
+  const pathname = usePathname();
+
+  return (
+    <div className="container mx-auto lg:hidden bg-white shadow-md">
+      <nav className="py-4">
+        {menuLinks.map((link, index) => (
+          <Link
+            key={index}
+            href={link.href}
+            className={clsx(
+              "block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]",
+              pathname === link.href ? "bg-gray-300" : ""
+            )}
+          >
+            {link.label}
+          </Link>
+        ))}
+      </nav>
+    </div>
+  );
+};
 
 export default Header;

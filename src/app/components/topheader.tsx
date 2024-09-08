@@ -3,7 +3,7 @@ import Link from "next/link";
 function Topheader() {
   return (
     <div className="hidden md:block bg-black text-white py-2 text-[12px]">
-      <div className="container px-5 py-2 mx-auto flex justify-between items-center">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 py-2 mx-auto flex justify-between items-center">
         <div className="flex space-x-6">
           <div className="flex items-center space-x-2">
             <FaHeadphones />

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import Title from "@/components/title";
 
 interface Image {
   src: string;
@@ -46,9 +47,8 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
   }
 
   return (
-    <div className="container mx-auto px-5">
-      <h1 className="text-center text-2xl font-semibold mb-8">Capturing Joy</h1>
-
+    <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto">
+      <Title text="Capturing Joy" className="mb-10 text-center" />
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
         {currentImages.map((image, index) => (
           <div key={index} className="relative">

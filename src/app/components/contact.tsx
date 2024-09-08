@@ -5,7 +5,7 @@ import Title from "@/components/title";
 const Contact = () => {
   return (
     <section className="py-24">
-      <div className="container mx-auto">
+      <div className="container px-8 md:px-8 lg:px-12 xl:px-16 mx-auto">
         <div className="flex justify-center">
           <div className="text-center mb-12">
             <Title text="Contact For Any Query" />
