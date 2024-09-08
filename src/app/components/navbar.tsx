@@ -47,12 +47,13 @@ const Header: React.FC = () => {
 
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
+    window.scrollTo(0, 0);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
     };
-  }, [handleScroll, handleResize]);
+  }, [handleScroll, handleResize, pathname]);
 
   return (
     <header
