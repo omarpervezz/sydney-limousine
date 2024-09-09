@@ -12,18 +12,18 @@ const ServicePage: React.FC = () => {
         {blogPosts.map((post) => (
           <div
             key={post.id}
-            className="bg-[#eaeaea] w-full p-4 flex gap-2 flex-col items-start justify-center rounded-lg shadow-md overflow-hidden"
+            className="bg-[#eaeaea] w-full p-7 flex gap-2 flex-col items-center justify-center rounded-lg shadow-md overflow-hidden"
           >
-            <div className="flex items-center">
+            <div className="w-full flex justify-center">
               <Image
                 src={post.image}
                 alt={post.title}
-                width={500}
+                width={300}
                 height={100}
-                className="w-full object-contain rounded-md"
+                className="w-[500px] h-[500px] bg-white object-contain rounded-md"
               />
             </div>
-            <div className="">
+            <div>
               <h2 className="text-2xl font-semibold mt-3 mb-2">{post.title}</h2>
               <p className="text-gray-700 mb-2">
                 {post.description.split(". ").slice(0, 1).join(". ") + "."}

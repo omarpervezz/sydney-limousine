@@ -3,8 +3,10 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Title from "@/components/title";
+import Link from "next/link";
 
 type FleetCar = {
+  slug: string;
   image: string;
   category: string[];
   name: string;
@@ -75,7 +77,7 @@ const ProductArea: React.FC = () => {
             </button>
             <button
               className={`px-6 py-2 mx-2 mb-2 rounded ${
-                activeFilter === "Executive"
+                activeFilter === "Executive Car"
                   ? "bg-teal-600 text-white"
                   : "bg-gray-200 text-gray-600"
               }`}
@@ -96,7 +98,7 @@ const ProductArea: React.FC = () => {
 
             <button
               className={`px-6 py-2 mx-2 mb-2 rounded ${
-                activeFilter === "People Mover"
+                activeFilter === "Sedan"
                   ? "bg-teal-600 text-white"
                   : "bg-gray-200 text-gray-600"
               }`}
@@ -154,13 +156,8 @@ const ProductArea: React.FC = () => {
                   <div className="p-6">
                     <div className="flex justify-between items-center mb-4">
                       <ul className="flex flex-row justify-between w-full space-x-2">
-                        <li>
-                          <a
-                            href="#"
-                            className="text-purple-600 text-sm font-bold"
-                          >
-                            {product.category}
-                          </a>
+                        <li className="text-purple-600 text-sm font-bold">
+                          {product.category}
                         </li>
                         <li className="text-gray-800 font-semibold text-sm">
                           {product.luggage}
@@ -168,9 +165,12 @@ const ProductArea: React.FC = () => {
                       </ul>
                     </div>
                     <h4 className="text-lg font-semibold mb-2">
-                      <a href="#" className="hover:text-teal-600">
+                      <Link
+                        href={`fleets/${product.slug}`}
+                        className="hover:text-teal-600"
+                      >
                         {product.name}
-                      </a>
+                      </Link>
                     </h4>
                     <p className="text-gray-600 text-sm">
                       {product.description}
