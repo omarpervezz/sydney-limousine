@@ -5,7 +5,6 @@ import Topheader from "@/components/topheader";
 import Header from "@/components/navbar";
 import AppSection from "@/components/appsection";
 import Footer from "@/components/footer";
-import Loading from "@/app/loading";
 
 export const metadata: Metadata = {
   title: "Sydney Limousine Service",

@@ -1,6 +1,7 @@
-import { FaCertificate } from "react-icons/fa6";
-import { FaUsersCog } from "react-icons/fa";
-import { FaTools } from "react-icons/fa";
+import chauffeur from "@/public/chauffeur.png";
+import car from "@/public/people.png";
+import dollar from "@/public/dollar.png";
+import Image from "next/image";
 export default function FeaturesArea() {
   return (
     <div className="container px-8 md:px-10 lg:px-14 xl:px-16 mx-auto py-12">
@@ -10,20 +11,20 @@ export default function FeaturesArea() {
           data-wow-delay="0.1s"
         >
           <div className="flex items-center py-5 px-4">
-            <FaCertificate className="fa fa-certificate text-6xl text-purple-600 flex-shrink-0" />
+            <Image
+              src={chauffeur}
+              alt="chauffeur"
+              width={70}
+              height={70}
+            ></Image>
             <div className="pl-4">
               <h5 className="mb-3 text-xl font-semibold">
-                BEST QUALITY PRODUCTS
+                Professional Chauffeurs
               </h5>
               <p className="text-gray-500">
-                Diam dolor diam ipsum sit amet diam et eos erat ipsum
+                Sydney Limousine service provides professional Chauffeurs for
+                you 24/7.
               </p>
-              <a
-                className="text-gray-600 border-b border-gray-600 hover:text-gray-800"
-                href=""
-              >
-                Read More
-              </a>
             </div>
           </div>
         </div>
@@ -32,20 +33,13 @@ export default function FeaturesArea() {
           data-wow-delay="0.3s"
         >
           <div className="flex items-center bg-gray-100 rounded-lg shadow-md py-5 px-4">
-            <FaUsersCog className="fa fa-users-cog text-6xl text-purple-600 flex-shrink-0" />
+            <Image src={car} alt="car" width={70} height={70}></Image>
             <div className="pl-4">
-              <h5 className="mb-3 text-xl font-semibold">
-                SPECIFICALLY FARMING
-              </h5>
+              <h5 className="mb-3 text-xl font-semibold">Latest car models</h5>
               <p className="text-gray-500">
-                Diam dolor diam ipsum sit amet diam et eos erat ipsum
+                Sydney Limousine service provides always reliable and
+                comfortable cars for you.
               </p>
-              <a
-                className="text-gray-600 border-b border-gray-600 hover:text-gray-800"
-                href=""
-              >
-                Read More
-              </a>
             </div>
           </div>
         </div>
@@ -54,20 +48,13 @@ export default function FeaturesArea() {
           data-wow-delay="0.5s"
         >
           <div className="flex items-center py-5 px-4">
-            <FaTools className="fa fa-tools text-6xl text-purple-600 flex-shrink-0" />
+            <Image src={dollar} alt="dollar" width={70} height={70}></Image>
             <div className="pl-4">
-              <h5 className="mb-3 text-xl font-semibold">
-                ORGANIC FARM IMPORTANT?
-              </h5>
+              <h5 className="mb-3 text-xl font-semibold">Reasonable price</h5>
               <p className="text-gray-500">
-                Diam dolor diam ipsum sit amet diam et eos erat ipsum
+                Sydney Limousine service offers a variety of services with a
+                reasonable range of prices.
               </p>
-              <a
-                className="text-gray-600 border-b border-gray-600 hover:text-gray-800"
-                href=""
-              >
-                Read More
-              </a>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const ServicePage: React.FC = () => {
         {blogPosts.map((post) => (
           <div
             key={post.id}
-            className="bg-[#eaeaea] w-full h-[250px] p-5 flex gap-3 flex-row items-center justify-center rounded-lg shadow-md overflow-hidden"
+            className="bg-[#eaeaea] w-full p-4 flex gap-2 flex-col items-start justify-center rounded-lg shadow-md overflow-hidden"
           >
             <div className="flex items-center">
               <Image
@@ -20,18 +20,18 @@ const ServicePage: React.FC = () => {
                 alt={post.title}
                 width={500}
                 height={100}
-                className="w-full object-contain"
+                className="w-full object-contain rounded-md"
               />
             </div>
             <div className="">
-              <h2 className="text-2xl font-semibold mb-2">{post.title}</h2>
-              <p className="text-gray-700 mb-4">
+              <h2 className="text-2xl font-semibold mt-3 mb-2">{post.title}</h2>
+              <p className="text-gray-700 mb-2">
                 {post.description.split(". ").slice(0, 1).join(". ") + "."}
               </p>
               <Link
                 href={`/service/${post.slug}`}
                 passHref
-                className="text-white bg-black hover:bg-gray-800 font-medium py-3 px-5 rounded-lg transition-colors"
+                className="text-white mt-1 inline-block bg-black hover:bg-gray-800 font-medium py-3 px-5 rounded-lg transition-colors"
               >
                 View more
               </Link>

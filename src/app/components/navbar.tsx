@@ -9,7 +9,7 @@ import logoSrc from "@/public/logo-small.png";
 
 const menuLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
+  { href: "/about", label: "About Us" },
   { href: "/service", label: "Service" },
   { href: "/service-area", label: "Service Area" },
   { href: "/fleets", label: "Fleets" },
@@ -132,8 +132,8 @@ const MobileMenu: React.FC = () => {
             key={index}
             href={link.href}
             className={clsx(
-              "block px-4 py-2 hover:bg-gray-100 font-medium uppercase text-[14px]",
-              pathname === link.href ? "bg-gray-300" : ""
+              "block px-4 py-2 font-medium uppercase text-[14px]",
+              pathname === link.href ? "bg-black text-white" : ""
             )}
           >
             {link.label}

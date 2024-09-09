@@ -131,10 +131,10 @@ const Contact = () => {
                   <p>
                     <span className="font-semibold">Email:</span>{" "}
                     <a
-                      href="mailto:info@yoursite.com"
+                      href="mailto:info@sydneylimousineservice.com"
                       className="text-white underline"
                     >
-                      info@yoursite.com
+                      info@sydneylimousineservice.com
                     </a>
                   </p>
                 </div>
@@ -146,8 +146,11 @@ const Contact = () => {
                 <div className="pl-3">
                   <p>
                     <span className="font-semibold">Website:</span>{" "}
-                    <a href="#" className="text-white underline">
-                      yoursite.com
+                    <a
+                      href="sydneylimousineservice.com"
+                      className="text-white underline"
+                    >
+                      sydneylimousineservice.com
                     </a>
                   </p>
                 </div>

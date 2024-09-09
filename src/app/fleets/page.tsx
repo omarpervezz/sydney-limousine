@@ -43,7 +43,7 @@ export default async function FleetPage() {
                     alt={car.name}
                     width={400}
                     height={250}
-                    className="w-full object-cover"
+                    className="w-[360px] h-[268px] object-cover"
                   />
                   <div className="p-6">
                     <h2 className="text-2xl font-bold text-gray-800">
@@ -63,7 +63,7 @@ export default async function FleetPage() {
                       ))}
                     </ul>
 
-                    <div className="flex gap-4 mt-4">
+                    <div className="flex flex-col md:flex-col lg:flex-row gap-4 mt-4">
                       <Link
                         href={`/fleets/${car.slug}`}
                         className="w-full bg-teal-600 text-white px-6 py-3 rounded-md hover:bg-teal-700 transition-all"
